@@ -1,0 +1,8 @@
+<div class="mt-5">
+  <h1>Welcome to Hydra</h1>
+  <p>Hydra is an application for monitoring different machines across a network and reporting on various events.</p>
+</div>
+
+<app-event-list></app-event-list>
+
+<pre>{{ events$ | async | json }}</pre>
